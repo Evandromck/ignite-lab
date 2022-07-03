@@ -1,0 +1,21 @@
+npm i 
+
+00:21
+
+npm i tailwindcss postcss autoprefixer -D
+
+postcss  // server para automatizar tarefas 
+
+npx tailwindcss init -p
+
+
+npm i @apollo/client graphql
+
+1 - 34:34
+
+
+Aula 1:04 explica sobre ( hooks ) integração com apolo iontegração com o react: adiciona açoes ou comportamento ao nossos componentes Ex: buscar dados de uma ipa, geralmemnte começa com user
+
+<ApolloProvider> usa uma ipa do react que ele usa um contant api
+
+Aula 1 finalizadaa => configurando o tailwind. Conta no Graphgli criaada com o cline do projeto Racktseat, depois feita instalação do apollo e as hooks para fazer requisição do banco criado no Graphcli.  

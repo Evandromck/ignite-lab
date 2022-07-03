@@ -1,8 +1,0 @@
-npm i 
-
-00:21
-
-npm i tailwindcss postcss autoprefixer -D
-postcss  // server para automatizar tarefas 
-
-npmx tailwindcss init -p
