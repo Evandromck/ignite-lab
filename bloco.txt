@@ -1,3 +1,5 @@
+npm run dev 
+
 npm i 
 
 00:21
@@ -19,3 +21,5 @@ Aula 1:04 explica sobre ( hooks ) integração com apolo iontegração com o rea
 <ApolloProvider> usa uma ipa do react que ele usa um contant api
 
 Aula 1 finalizadaa => configurando o tailwind. Conta no Graphgli criaada com o cline do projeto Racktseat, depois feita instalação do apollo e as hooks para fazer requisição do banco criado no Graphcli.  
+
+Aula 2 28:24 - header criado com o logo importado em svg 
