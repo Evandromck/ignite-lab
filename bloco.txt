@@ -23,3 +23,15 @@ Aula 1:04 explica sobre ( hooks ) integração com apolo iontegração com o rea
 Aula 1 finalizadaa => configurando o tailwind. Conta no Graphgli criaada com o cline do projeto Racktseat, depois feita instalação do apollo e as hooks para fazer requisição do banco criado no Graphcli.  
 
 Aula 2 28:24 - header criado com o logo importado em svg 
+
+Aula 2 40:44 -  Explica como colocar uma ancora no react 
+
+Aula 2 42:38
+
+tailwind = **between para separa texto
+block = serve para distancia os elemento no bloco
+instalação para utilizar icones ( npm i phosphor-react ) = https://phosphoricons.com/
+
+Aula 2 1:01 ( npm i date-fns ) para trabalhar com formatação de data no react {
+    verifica se a data que recebe esta no passado 
+}
