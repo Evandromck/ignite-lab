@@ -37,3 +37,4 @@ Aula 2 1:01 ( npm i date-fns ) para trabalhar com formatação de data no react 
 }
 
 teste
+teste
