@@ -35,3 +35,5 @@ instalação para utilizar icones ( npm i phosphor-react ) = https://phosphorico
 Aula 2 1:01 ( npm i date-fns ) para trabalhar com formatação de data no react {
     verifica se a data que recebe esta no passado 
 }
+
+teste
