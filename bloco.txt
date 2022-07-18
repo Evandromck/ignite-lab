@@ -39,3 +39,10 @@ Aula 2 1:01 ( npm i date-fns ) para trabalhar com formatação de data no react 
 Aula 3 00:28
 
 00:30 => vimejs.com ( Uma biblioteca para importar video )
+00:36 =>
+
+npm i react-router-dom  => permiter ter rotas em paginas
+
+Routes e suas dependencias 
+
+final da Aula 3 =  
