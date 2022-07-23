@@ -15,7 +15,7 @@ const CREATE_SUBSCRIBER_MUTATION = gql`
 export function Subscribe(){
    const navigate = useNavigate() //direcionando o usuario para a tela event
 
-   const [name, setName] = useState(''); //coletando as informações dos inpout
+   const [name, setName] = useState(''); //coletando as informações dos input
    const [email, setEmail] = useState('');
 
    const [createSubscriber, { loading }] = useMutation(CREATE_SUBSCRIBER_MUTATION)  //useMutation Ele devolve duas coisas a função para realizar a mutation, o loading e true ou false.
