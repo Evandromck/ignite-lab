@@ -8,7 +8,7 @@ interface lessonProps{
     title: string;
     slug: string;
     availableAt: Date;
-    type: 'Live' | 'class'; //vai receber uma do tipo Aula Live ou class
+    type: 'live' | 'class'; //vai receber uma do tipo Aula Live ou class
 }
 
 export function Lesson(props: lessonProps){
@@ -53,7 +53,7 @@ export function Lesson(props: lessonProps){
                        'border-white' : isActiveLesson, // se tiver ativa
                        'border-green-300' : !isActiveLesson,// se não estiver ativa
                    })}>
-                   {props.type == 'Live' ? 'AO VIVO' : 'AULA PRÁTICA'}
+                   {props.type == 'live' ? 'AO VIVO' : 'AULA PRÁTICA'}
                     </span>
                 </header>
 

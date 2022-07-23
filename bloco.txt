@@ -50,3 +50,8 @@ final da Aula 3 =
 Aula = 4 48:59hs
 
 Aula 4 52:53   ( npm i classnames ) -  lib para modificar o estilo do css 
+
+Aula 5 - GraphQL code Generator -> gerenciamento para permitir criar um compo na api sem que estaja definido no gerenciamento de API graphCMS e saber suas tipagem 
+dependencias -> npm i @graphql-codegen/typescript @graphql-codegen/typescript-operations @graphql-codegen/typescript-react-apollo -D para ser uma aplicação de produção - 3 plugn juntos
+npm i @graphql-codegen/cli -D //instalando o graphql
+https://www.graphql-code-generator.com/docs/guides/react#apollo-and-urql
