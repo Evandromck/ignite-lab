@@ -24,39 +24,39 @@ export function Subscribe(){
         }
      })
 
-    navigate('/event') //rota para o direciaonal para o cliente min-h-screen bg-blur bg-cover bg-no-repeat
+    navigate('/event') //rota para o direciaonal para o cliente 
 
    }
 
     return(
-        <div className="flex flex-col items-center">
+        <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
             
-            <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
-                <div className="max-w-[640px]">
-                    <Logo />
+            <div className="w-full max-w-[1200px] flex items-center justify-between mt-40 mx-auto">
+                <div className="max-w-[900px]">
+                
 
-                    <h1 className="mt-8 text-[2.5rem] leading-tight">
-                        Construa uma <strong className="text-blue-500">Aplicação Completa</strong>, do zero, com <strong className="text-blue-500">React</strong>
+                    <h1 className="mt-1 text-[2.5rem] leading-tight">
+                    A plataforma de <strong className="text-blue-500">Eventos Virtual</strong> com mais interação <strong className="text-blue-500"> Online e Offline.</strong>
                     </h1>
                     <p className="mt-4 text-gray-200 leading-relaxed">
-                        Em apenas uma semana você vai dominar na prática uma das tacnologia mais itilizadas do mercado
+                        ...
                     </p>
                 </div>
                 
-                <div className="p-8 bg-gray-700 border border-gray-500 rounded">
-                    <strong className="text-2xl mb-6 blck text-blue-500 ">Login</strong>
+                <div className="p-10 bg-gray-700 border border-gray-500 rounded">
+                    <strong className="text-3xl mb-7 block text-blue-500 ">Cadastro</strong>
 
-                    <form onSubmit={handleSubscribe} className="flex flex-col gap-2 w-full">
+                    <form onSubmit={handleSubscribe} className="flex flex-col gap-3 w-full">
                         <input 
-                        className="bg-gray-900 rounded px-5 h-14"
+                        className="bg-gray-900 rounded px-20 h-14"
                         type="text" 
-                        placeholder="Seu nome completo" 
-                        onChange={event => setName(event.target.value)} //apois o event onChange sera coletado o valor para target
+                        placeholder="Seu nome Completo" 
+                        onChange={event => setName(event.target.value)} //apois o event osnChange sera coletado o valor para target
                         />
                         <input 
-                        className="bg-gray-900 rounded px-5 h-14"
+                        className="bg-gray-900 rounded px-20 h-14"
                         type="email" 
-                        placeholder="Digite seu e-mail"
+                        placeholder="Digite seu E-mail"
                         onChange={event => setEmail(event.target.value)} 
                         />
 
@@ -72,8 +72,8 @@ export function Subscribe(){
                 </div>
 
             </div>
-             
-            <img src="/src/assets/code-mocak.png" className="mt-10" alt="" />
+            <img src="/src/assets/fields-start.png" className="mt-0" alt="" />
+            
         </div>
     );
 }

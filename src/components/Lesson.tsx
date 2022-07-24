@@ -27,8 +27,8 @@ export function Lesson(props: lessonProps){
                 {availableDateFormatted}
             </span>
 
-            <div className={classNames(`rounded border border-gray-500 p-4 mt-2 group-hover:border-green-500`,{ //Com a 'lib classNames' aqui é a classe que nunca muda
-                      'bg-green-500' : isActiveLesson, // quando o 'isActiveLesson' estiver ativo vai ser aplicado a 'classe bg-gree-500'
+            <div className={classNames(`rounded border border-gray-500 p-4 mt-2 group-hover:border-blue-900`,{ //Com a 'lib classNames' aqui é a classe que nunca muda
+                      'bg-blue-900' : isActiveLesson, // quando o 'isActiveLesson' estiver ativo vai ser aplicado a 'classe bg-gree-500'
             })} > 
                 <header className="flex items-center justify-between">  
                 {isLessonAvailable ? (
@@ -51,7 +51,7 @@ export function Lesson(props: lessonProps){
                    
                    <span className={classNames('text-xs rounded py-[0.125rem] px-2 text-white border font-bold',{
                        'border-white' : isActiveLesson, // se tiver ativa
-                       'border-green-300' : !isActiveLesson,// se não estiver ativa
+                       'border-blue-400' : !isActiveLesson,// se não estiver ativa
                    })}>
                    {props.type == 'live' ? 'AO VIVO' : 'AULA PRÁTICA'}
                     </span>
