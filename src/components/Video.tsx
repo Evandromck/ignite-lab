@@ -1,6 +1,6 @@
 import { DefaultUi, Player, Youtube } from "@vime/react";
 
-import { CaretRight, DiscordLogo, FileArrowDown, Lightning } from "phosphor-react";
+import { CaretRight, DiscordLogo, FileArrowDown, Lightning, Book, ChatCircleDots, Envelope } from "phosphor-react";
 
 import '@vime/core/themes/default.css';
 import { useGetLessonBySlugQuery } from "../graphql/generated";
@@ -68,13 +68,13 @@ export function Video(props: VideoProps){
                     <div className="flex flex-col gap-4">
 
                     <a href="" className="p-4 text-sm bg-blue-800 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-600 transition-colors">
-                      <DiscordLogo size={24} />
-                      Comunidade do Discord
+                      <ChatCircleDots size={24} />
+                      Acesse o chat
                     </a>
 
                     <a href="" className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-500 hover:text-gray-900 transition-colors">
-                      <Lightning size={24} />
-                      Acesse o desafio
+                      <Envelope size={24} />
+                      Envie sua sugestão        
                     </a>
 
                     </div>
@@ -84,12 +84,12 @@ export function Video(props: VideoProps){
                  <div className="gap-8 mt-20 grid grid-cols-2">
                   <a href="" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
                     <div className="bg-blue-700 h-full p-6 flex items-center">
-                      <FileArrowDown size={40} />
+                      <Book size={40} />
                     </div>
                     <div className="py-6 leading-relaxed">
-                      <strong className="text-2xl">Material Complementar</strong>
+                      <strong className="text-2xl">Material</strong>
                       <p className="text-sm text-gray-200 mt-2">
-                        Acesse o material complementar para acelerar o seu desenvolvimento
+                        Acesse o material complementar.
                       </p>
                     </div>
                     <div className="h-full p-6 flex items-center">
@@ -104,7 +104,7 @@ export function Video(props: VideoProps){
                     <div className="py-6 leading-relaxed">
                       <strong className="text-2xl">Wallpapers exclusivos</strong>
                       <p className="text-sm text-gray-200 mt-2">
-                        Baixe wallpapers exclusivos do Ignite lab e personalize a sua máquina 
+                        Baixe wallpapers exclusivos da Emerj
                       </p>
                     </div>
                     <div className="h-full p-6 flex items-center">

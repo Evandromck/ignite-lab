@@ -31,7 +31,7 @@ export function Subscribe(){
     return(
         <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
             
-            <div className="w-full max-w-[1200px] flex items-center justify-between mt-40 mx-auto">
+            <div className="w-full max-w-[1200px] flex items-center justify-between mt-48 mx-auto">
                 <div className="max-w-[900px]">
                 
 
@@ -43,7 +43,7 @@ export function Subscribe(){
                     </p>
                 </div>
                 
-                <div className="p-10 bg-gray-700 border border-gray-500 rounded">
+                <div className="p-10 bg-gray-700 border border-blue-500 rounded">
                     <strong className="text-3xl mb-7 block text-blue-500 ">Cadastro</strong>
 
                     <form onSubmit={handleSubscribe} className="flex flex-col gap-3 w-full">
@@ -65,14 +65,14 @@ export function Subscribe(){
                             disabled={loading} //evita o usuario ficar apertando o butão varias vezes, apois o primeiro clique é desativado.
                             className="mt-4 bg-green-900 uppercase py-4 rounded font-bold text-sm hover:bg-green-700 transition-colors disabled:opacity-50"
                         >
-                            Garatir minha vaga
+                            Entrar
                         </button>
                     </form>
 
                 </div>
 
             </div>
-            <img src="/src/assets/fields-start.png" className="mt-0" alt="" />
+            {/*<img src="/src/assets/deskto.png" className="mt-0" alt="" />*/}
             
         </div>
     );
