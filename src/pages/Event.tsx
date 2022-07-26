@@ -12,9 +12,8 @@ export function Event(){
          <main className="flex flex-1">
          { slug 
             ? <Video lessonSlug={slug} />
-            : <div className="flex-1 flex justify-center  opacity-25 ">
+            : <div className="flex-1 ">           
             
-            <img src="/src/assets/kastrup.jpg" className="mt-0" alt="" />
             </div>   
            
             }
